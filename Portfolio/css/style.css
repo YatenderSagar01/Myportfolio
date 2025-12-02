@@ -1,0 +1,153 @@
+/* ---------- Global Styles ---------- */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff5e6; /* light warm tone */
+    color: #4a2c18;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #d35400;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+/* ---------- Home Section ---------- */
+header {
+    background: linear-gradient(to right, #ff9a5a, #ffb77a);
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.6rem;
+}
+
+.hero span {
+    color: #ffe7c2;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* ---------- About Section ---------- */
+.about-text {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* ---------- Skills Section ---------- */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-card {
+    background: #ffd9b3;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid #ff9a5a;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    background: #ffb77a;
+    transform: scale(1.05);
+}
+
+/* ---------- Projects Section ---------- */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #ff9a5a;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #ff9a5a;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-card button:hover {
+    background: #d35400;
+}
+
+/* ---------- Contact Section ---------- */
+.contact-box {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-box form input,
+.contact-box form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ff9a5a;
+    background: #fffdf8;
+}
+
+.contact-box button {
+    padding: 12px 20px;
+    border: none;
+    background: #d35400;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    background: #a84300;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background: #4a2c18;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
